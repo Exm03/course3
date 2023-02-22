@@ -1,0 +1,40 @@
+body {
+    width: 70%;
+    margin: 0px 15% 0px 15%;
+}
+
+.title {
+    color: black;
+}
+
+.inp {
+    height: 35px;
+    width: 245px;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #000;
+}
+
+.btn {
+    height: 41px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    background-color: #ff3434;
+    color: azure;
+    border: none;
+      margin-left: 5px;
+      transition: all .3s linear;
+      cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ff0404;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 40px;
+}

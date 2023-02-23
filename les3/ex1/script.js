@@ -9,7 +9,6 @@ let interval = setInterval (
         hex += ('000000' + randomColor.toString(16)).slice(-6)
         colorBingo.style.backgroundColor = hex
         color.textContent = hex
-    }, 1000);
     }, 100);
 
     colorBingo.onclick = function () {

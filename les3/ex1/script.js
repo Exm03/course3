@@ -10,6 +10,7 @@ let interval = setInterval (
         colorBingo.style.backgroundColor = hex
         color.textContent = hex
     }, 1000);
+    }, 100);
 
     colorBingo.onclick = function () {
         clearInterval(interval)

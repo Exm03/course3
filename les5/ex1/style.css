@@ -1,0 +1,35 @@
+body{
+    height: 100vh;
+}
+
+.img{
+    width: 100%;
+    display: block;
+    position: relative;
+}
+
+.loader {
+    display: block;
+    position: relative;
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+    border: 5px solid #000000;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+
+.hide{
+    display: none;
+}
